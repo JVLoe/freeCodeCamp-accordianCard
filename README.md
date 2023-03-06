@@ -1,1 +1,1 @@
-# freeCodeCamp-accordionCard
+# FreeCodeCamp: Accordion Card Project 
