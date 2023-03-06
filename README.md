@@ -1,1 +1,1 @@
-# freeCodeCamp-accordianCard
+# freeCodeCamp-accordionCard
