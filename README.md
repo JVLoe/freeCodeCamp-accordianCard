@@ -1,1 +1,2 @@
-# FreeCodeCamp: Accordion Card Project 
+# Frontend Mentor - FAQ accordion card solution
+
