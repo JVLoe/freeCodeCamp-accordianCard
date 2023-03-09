@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- viewport meta data tag changing from mobile to desktop-->
 
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -18,78 +17,86 @@
     <title>FAQ Accordion Card | Johanna Loe</title>
 </head>
 <body>
-
 <main>
+    <section class="questionContainer">
+        <h1>faq</h1>
 
-    <figure>
-        <img src="Assets/illustration-woman-online-mobile.svg"
-             alt="illustration of woman online"
-             id="womanOnlineImage"/>
-        <img src="Assets/bg-pattern-mobile.svg"
-             alt="box shadow"
-             id="boxShadow"/>
-    </figure>
-    <div class="card">
-
-
-        <section class="faqContainer">
-
-            <h1>faq</h1>
-
-
-            <div class="questionContainer">
-                <button type="button" class="question">How many team members can I invite?</button>
-                <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
-                <div class="panel">
-                    <p class="content">You can invite up to 2 additional users on the Free plan. There is no limit on
-                        team members for the Premium plan.</p>
-                </div>
+        <article>
+            <div class="question">
+                <p class="questionTitle">How many team members can I invite?</p>
+                <button type="button" class="questionToggle">
+                    <span>
+                        <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
+                    </span>
+                </button>
             </div>
-
-
-            <div class="questionContainer">
-                <button type="button" class="question">What is the maximum file upload size?</button>
-                <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
-                <div class="panel">
-                    <p class="content">No more than 2GB. All files in your account must fit your allotted storage
-                        space.</p>
-                </div>
+            <div class="panel">
+                <p class="answer">You can invite up to 2 additional users on the Free plan. There is no limit on
+                    team members for the Premium plan.</p>
             </div>
+        </article>
 
-
-            <div class="questionContainer">
-                <button type="button" class="question">How do I reset my password?</button>
-                <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
-                <div class="panel">
-                    <p class="content">Click “Forgot password” from the login page or “Change password” from your
-                        profile page. A reset link will be emailed to you.</p>
-                </div>
+        <article>
+            <div class="question">
+                <p class="questionTitle">What is the maximum file upload size?</p>
+                <button type="button" class="questionToggle">
+                    <span>
+                        <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
+                    </span>
+                </button>
             </div>
-
-
-            <div class="questionContainer">
-                <button type="button" class="question">Can I cancel my subscription?</button>
-                <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
-                <div class="panel">
-                    <p class="content">Yes! Send us a message and we’ll process your request no questions asked.</p>
-                </div>
+            <div class="panel">
+                <p class="answer">No more than 2GB. All files in your account must fit your allotted storage
+                    space.</p>
             </div>
+        </article>
 
-
-            <div class="questionContainer">
-                <button type="button" class="question">Do you provide additional support?</button>
-                <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
-                <div class="panel">
-                    <p class="content">Chat and email support is available 24/7. Phone lines are open during normal
-                        business hours.</p>
-                </div>
+        <article>
+            <div class="question">
+                <p class="questionTitle">How do I reset my password?</p>
+                <button type="button" class="questionToggle">
+                    <span>
+                        <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
+                    </span>
+                </button>
             </div>
+            <div class="panel">
+                <p class="answer">Click “Forgot password” from the login page or “Change password” from your
+                    profile page. A reset link will be emailed to you.</p>
+            </div>
+        </article>
 
-        </section>
+        <article>
+            <div class="question">
+                <p class="questionTitle">Can I cancel my subscription?</p>
+                <button type="button" class="questionToggle">
+                    <span>
+                        <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
+                    </span>
+                </button>
+            </div>
+            <div class="panel">
+                <p class="answer">Yes! Send us a message and we’ll process your request no questions asked.</p>
+            </div>
+        </article>
 
-    </div>
-
+        <article>
+            <div class="question">
+                <p class="questionTitle">Do you provide additional support?</p>
+                <button type="button" class="questionToggle">
+                    <span>
+                        <img src="Assets/icon-arrow-down.svg" alt="icon down arrow" class="arrowDown"/>
+                    </span>
+                </button>
+            </div>
+            <div class="panel">
+                <p class="answer">Chat and email support is available 24/7. Phone lines are open during normal
+                    business hours.</p>
+            </div>
+        </article>
+    </section>
 </main>
+
 <footer>
     <p class="credit">Challenge by Frontend Mentor. Coded By Johanna Loe</p>
     <a href="https://github.com/JVLoe" target="_blank" class="githubLink">
@@ -98,3 +105,4 @@
 </footer>
 </body>
 </html>
+
