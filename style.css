@@ -20,7 +20,7 @@ body {
     height: 545px;
     border-radius: 25px;
     position: relative;
-    top: 70px;
+    top: 50px;
     padding-inline: 1.5rem .5rem;
     padding-block: 9rem 3rem;
 }
@@ -131,7 +131,8 @@ footer {
     text-align: center;
     font-size: 0.7rem;
     position: absolute;
-    transform: translate(0%, 800%);
+    padding-bottom: 10px;
+    top: 210px;
 }
 
 .credit {
@@ -175,7 +176,7 @@ footer {
     }
 
     footer {
-        transform: translate(0%, 600%)
+        top: 250px;
     }
 }
 
@@ -199,6 +200,11 @@ footer {
         width: 350px;
     }
 
+    footer {
+        transform: translate(0%, 680%);
+        padding-bottom: 15px;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -206,7 +212,7 @@ footer {
     .card {
         height: 510px;
         width: 800px;
-        top: 10px;
+        top: 0px;
         background: url(./Assets/illustration-woman-online-desktop.svg) bottom 3.1rem left -5.1rem no-repeat,
         url(./Assets/bg-pattern-desktop.svg) bottom -10rem left -36rem no-repeat;
         background-color: #ffffff;
@@ -245,7 +251,8 @@ footer {
     }
 
     footer {
-        transform: translate(0%, 480%);
+        transform: translate(0%, 560%);
+        padding-bottom: 18px;
     }
 
     @media screen and (min-width: 1000px) {
