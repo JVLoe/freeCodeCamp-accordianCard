@@ -144,7 +144,9 @@ footer {
 .githubLink {
     font-size: 1rem;
     color: #ffffff;
+    text-decoration: none;
 }
+
 
 
 @keyframes boxHop {
