@@ -176,7 +176,7 @@ footer {
     }
 
     footer {
-        transform: translate(0%, 600%)
+        top: 250px;
     }
 }
 
@@ -201,8 +201,8 @@ footer {
     }
 
     footer {
-        transform: translate(0%, 720%);
-        padding-bottom: 10px;
+        transform: translate(0%, 680%);
+        padding-bottom: 15px;
     }
 
 }
@@ -251,8 +251,8 @@ footer {
     }
 
     footer {
-        transform: translate(0%, 600%);
-        padding-bottom: 10px;
+        transform: translate(0%, 560%);
+        padding-bottom: 18px;
     }
 
     @media screen and (min-width: 1000px) {
